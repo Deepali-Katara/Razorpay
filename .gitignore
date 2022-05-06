@@ -1,0 +1,24 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/razorpay-frontend/node_modules
+/razorpay-backend/node_modules
+/razorpay-frontend/.pnp
+/razorpay-frontend/.pnp.js
+
+# testing
+/razorpay-frontend/coverage
+
+# production
+/razorpay-frontend/build
+
+# misc
+/razorpay-frontend/.DS_Store
+/razorpay-frontend/.env.local
+/razorpay-frontend/.env.development.local
+/razorpay-frontend/.env.test.local
+/razorpay-frontend/.env.production.local
+
+/razorpay-frontend/npm-debug.log*
+/razorpay-frontend/yarn-debug.log*
+/razorpay-frontend/yarn-error.log*
